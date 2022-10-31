@@ -1,5 +1,6 @@
 import {
   Box,
+  Button,
   Circle,
   Flex,
   Image,
@@ -21,8 +22,9 @@ function Header() {
       <Stack>
         <Circle
           position="absolute"
-          bg="blue.100"
-          opacity="0.1"
+          bg="cyan.300"
+          opacity="0.2"
+          zIndex="-2"
           w="300px"
           h="300px"
           alignSelf="center"
@@ -49,9 +51,10 @@ function Header() {
             >
               Christian
             </Text>
-            <Text color={isDark ? "gray.200" : "blue.800"} textAlign="justify" >
+            <Text color={isDark ? "gray.200" : "blue.600"} fontWeight="500" textAlign="justify" >
               I am a certified software developer, I work with Skillup Africa Academy as a front-end developer. I build responsive and interactive website using frontend technologies. I am a programming tutor and I teach web development, HTML, CSS, JavaScript, React, Tailwind, Chakra UI, C, version controls with git, and GitHub.
             </Text>
+            <Button>Hire Me</Button>
           </VStack>
           <Box w="300px" h="300px">
             <Image

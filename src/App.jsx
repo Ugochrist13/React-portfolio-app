@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <VStack>
-        <Flex w="100%" justifyContent='space-between' bg="pink.600" padding="10px 20px">
+        <Flex w="100%" justifyContent='space-between' bg={isDark ? "gray.600" : "pink.600"}  padding="10px 20px">
           <Heading ml="8" bgGradient="linear(to-r, cyan.400, blue.500, purple.500, pink.200)"
               bgClip="text" fontWeight="700" >
             GENTECH
