@@ -54,7 +54,7 @@ function Header() {
             <Text color={isDark ? "gray.200" : "blue.600"} fontWeight="500" textAlign="justify" >
               I am a certified software developer, I work with Skillup Africa Academy as a front-end developer. I build responsive and interactive website using frontend technologies. I am a programming tutor and I teach web development, HTML, CSS, JavaScript, React, Tailwind, Chakra UI, C, version controls with git, and GitHub.
             </Text>
-            <Button>Hire Me</Button>
+            <Button alignSelf="flex-start">Hire Me</Button>
           </VStack>
           <Box w="300px" h="300px">
             <Image
