@@ -18,7 +18,7 @@ function Header() {
   const { isLS } = useMediaQuery("(min-width:650px)");
 
   return (
-    <div>
+    <VStack w="100%" >
       <Stack>
         <Circle
           position="absolute"
@@ -67,7 +67,7 @@ function Header() {
           </Box>
         </Flex>
       </Stack>
-    </div>
+    </VStack>
   );
 }
 
