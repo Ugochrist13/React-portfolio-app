@@ -13,7 +13,7 @@ function App() {
   const isDark = colorMode === "dark";
  
   return (
-    <VStack className="App" w="100%" rowGap="20px" bg={isDark ? "blue.900" : "peachpuff"} >
+    <VStack className="App" h="100vh" w="100%" rowGap="20px" bg={isDark ? "blue.900" : "peachpuff"} >
         <NavBAr toggleColorMode={toggleColorMode} colorMode={colorMode} />
         <Header/>
         <Social/>
